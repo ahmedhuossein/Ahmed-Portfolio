@@ -1,0 +1,8 @@
+
+nav {
+display: flex;
+color: rgb(255, 255, 255);
+gap: 10px;
+justify-content: right;
+padding: 8px;
+}
