@@ -5,9 +5,12 @@ import ahmedImage from './ahmed.jpg';
 const About = () => {
     return (
         <div className="main-container">
-            <div className="bio">I am a computer science major, studying at the City College of New York!</div>
+            <div className="bio"></div>
            <div className="profileWrap">
             <img src={ahmedImage} className="profile"></img>
+            <div>
+                
+            </div>
             </div>
             <ul>
                 <li>

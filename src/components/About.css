@@ -21,7 +21,7 @@
     color: rgb(231, 204, 230);
 }
 h3 {
-    color: violet; /* Match the color to your overall theme */
+    color: rgb(255, 255, 255); /* Match the color to your overall theme */
     margin: 0; /* Remove default margin for better spacing */
     font-size: 1.2; /* Adjust font size as needed */
     padding-bottom: 5px; /* Add some space below the header */
@@ -35,11 +35,14 @@ ul {
 li {
     flex: 1;
     margin-bottom: 20px;
-    border: 1px solid violet;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-right: 40px;
     padding: 15px;
+    background-color: #2e2e2e;
+    border-radius: 10px;
    
 }
 p {
-    color: rgb(231, 204, 230);
+    color: white;
 }

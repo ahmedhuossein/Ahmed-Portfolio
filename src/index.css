@@ -1,7 +1,6 @@
 
 
-body {
-  background: rgb(0, 0, 0); /* Fallback color for older browsers (black) */
-  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(75, 0, 130, 1) 100%); /* Smooth gradient from black to purple */
+body { /* Fallback color for older browsers (black) */
+  background: linear-gradient(90deg, #333638, #6586a4); /* Smooth gradient from black to purple */
   scroll-behavior: smooth;
 }

@@ -1,0 +1,21 @@
+.Projects {
+    text-align: center;
+    font-size: 30px;
+}
+
+.Projects-list {
+    display: flex;
+    
+}
+
+.Projects-list li{
+    flex: 1;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 40px;
+    padding: 10px;
+    background-color: #2e2e2e;
+    border-radius: 10px;
+
+}
