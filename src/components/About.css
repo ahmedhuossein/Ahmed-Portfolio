@@ -40,8 +40,16 @@ li {
     margin-right: 40px;
     padding: 15px;
     background-color: #2e2e2e;
+    transition:  0.3s ease;
     border-radius: 10px;
+    
+    
    
+}
+li:hover {
+    transform: scale(1.1);
+    
+    
 }
 p {
     color: white;

@@ -2,7 +2,7 @@
 .main {
     display: flex;
     justify-content: space-between; /* Ensure name and nav are aligned on opposite sides */
-    padding: 0; /* Ensure no extra padding */
+    padding: 5px; /* Ensure no extra padding */
     margin: 0; /* Ensure no extra margin */
     color: #ffffff;
    
@@ -17,7 +17,7 @@
 }
 nav {
 display: flex;
-gap: 10px;
+gap: 25px;
 padding: 0;
 font-size: 30px;
 justify-content: flex-end;

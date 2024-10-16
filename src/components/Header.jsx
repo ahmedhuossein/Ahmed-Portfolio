@@ -7,7 +7,7 @@ return (
 <nav>
 <div>About</div>
 <div>Projects</div>
-<div>Contact me</div>
+<div>Contact</div>
 </nav>
 </div>
 
