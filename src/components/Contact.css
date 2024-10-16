@@ -1,0 +1,35 @@
+.main1 {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+.contactm {
+    text-align: center;
+    color:white;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+form {
+    display: grid;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #2e2e2e;
+    padding: 20px;
+
+}
+textarea {
+    resize: none;
+}
+.name, .email, .message, .send {
+    width: 8;
+    border-radius: 5px; /* Round the corners */
+    border: 1px solid hsl(0, 0%, 80%); /* Add a border */
+    background-color: rgb(255, 255, 255);
+    padding: 12px; /* Add padding for better text positioning */
+    font-size: 20px; /* Increase font size for readability */
+    color: black; /* Change text color for better contrast */
+
+}

@@ -1,6 +1,7 @@
 import Header from './components/Header.jsx';
 import About from './components/About.jsx';
 import Projects from './components/Projects.jsx';
+import Contact from './components/Contact.jsx';
 import './index.css'; 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
     <Header/>
     <About/>
     <Projects/>
+    <Contact/>
 
 
 

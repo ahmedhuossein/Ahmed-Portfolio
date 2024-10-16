@@ -1,6 +1,7 @@
 .Projects {
     text-align: center;
     font-size: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .Projects-list {
