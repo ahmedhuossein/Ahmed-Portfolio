@@ -1,8 +1,8 @@
 import React from 'react';
 import './Projects.css';
-const Projects = () => {
+const Projects = ({projectsRef}) => {
     return (
-        <div>
+        <div ref={projectsRef}>
             <h3 className="Projects">Projects</h3>
 
             <ul className="Projects-list">

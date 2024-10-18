@@ -3,13 +3,16 @@ import About from './components/About.jsx';
 import Projects from './components/Projects.jsx';
 import Contact from './components/Contact.jsx';
 import './index.css'; 
+import { useRef } from 'react';
 function App() {
+  const projectsRef=useRef(null);
+  const contactRef=useRef(null);
   return (
     <main>
-    <Header/>
+    <Header projectsRef={projectsRef} contactRef={contactRef}/>
     <About/>
-    <Projects/>
-    <Contact/>
+    <Projects projectsRef={projectsRef}/>
+    <Contact contactRef={contactRef}/>
 
 
 
